@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="city-list">
+		<p id="none">X</p>
+		<table>
+			<tbody>
+				<tr ng-repeat="i in data">
+					<td>{{i.cityList.length}}</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+	<div class="linputer">
+		<div class="lbutton">
+			<span class="city" ng-click="city()">全国</span>
+			<span class="cityico"></span>
+		</div>
+		<div class="rinput">
+			<input type="text" placeholder="搜索职位或公司">
+			<span class="seach"><em class="seachico"></em></span>
+		</div>
+	</div>
+</body>
+</html>

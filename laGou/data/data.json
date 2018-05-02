@@ -1,0 +1,229 @@
+{
+    "result": [
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 2894284,
+            "positionName": "测试工程师",
+            "city": "北京",
+            "createTime": "今天 21:01",
+            "salary": "15k-25k",
+            "companyId": 436,
+            "companyLogo": "image1/M00/26/1E/Cgo8PFVUDROAf7zrAABr5cEcbGQ572.jpg",
+            "companyName": "360",
+            "companyFullName": "奇虎360科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 2909473,
+            "positionName": "高级产品经理",
+            "city": "北京",
+            "createTime": "今天 21:01",
+            "salary": "20k-30k",
+            "companyId": 436,
+            "companyLogo": "image1/M00/26/1E/Cgo8PFVUDROAf7zrAABr5cEcbGQ572.jpg",
+            "companyName": "360",
+            "companyFullName": "奇虎360科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3140645,
+            "positionName": "前端开发工程师",
+            "city": "北京",
+            "createTime": "今天 20:55",
+            "salary": "12k-22k",
+            "companyId": 3954,
+            "companyLogo": "i/image/M00/2E/98/CgpFT1k2cu-Ae5eNAAEDTPHkf_A479.jpg",
+            "companyName": "杏树林",
+            "companyFullName": "杏树林信息技术（北京）有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 1796262,
+            "positionName": "安全大数据平台开发工程师",
+            "city": "北京",
+            "createTime": "今天 20:45",
+            "salary": "18k-35k",
+            "companyId": 534,
+            "companyLogo": "i/image/M00/27/AB/CgqKkVcoggeATC36AABg5cLaGcs502.PNG",
+            "companyName": "京东金融",
+            "companyFullName": "京东金融"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 1796244,
+            "positionName": "WAF系统安全开发工程师",
+            "city": "北京",
+            "createTime": "今天 20:45",
+            "salary": "15k-30k",
+            "companyId": 534,
+            "companyLogo": "i/image/M00/27/AB/CgqKkVcoggeATC36AABg5cLaGcs502.PNG",
+            "companyName": "京东金融",
+            "companyFullName": "京东金融"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3140600,
+            "positionName": "运维工程师（杭州）",
+            "city": "杭州",
+            "createTime": "今天 19:38",
+            "salary": "5k-8k",
+            "companyId": 65313,
+            "companyLogo": "i/image/M00/00/1A/CgqKkVYpo_2AcvWWAAAVd2RV9D8953.png",
+            "companyName": "浙江保融",
+            "companyFullName": "浙江保融科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 2914654,
+            "positionName": "大客户经理",
+            "city": "杭州",
+            "createTime": "今天 19:38",
+            "salary": "8k-15k",
+            "companyId": 65313,
+            "companyLogo": "i/image/M00/00/1A/CgqKkVYpo_2AcvWWAAAVd2RV9D8953.png",
+            "companyName": "浙江保融",
+            "companyFullName": "浙江保融科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3155484,
+            "positionName": "项目经理(实施顾问)",
+            "city": "郑州",
+            "createTime": "今天 19:27",
+            "salary": "8k-12k",
+            "companyId": 53634,
+            "companyLogo": "image1/M00/0B/4F/CgYXBlTyiPeASTPlAAB_1PcCjrI255.jpg",
+            "companyName": "广东智源",
+            "companyFullName": "广东智源信息技术有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3151626,
+            "positionName": "高级交互设计师",
+            "city": "北京",
+            "createTime": "今天 19:26",
+            "salary": "10k-20k",
+            "companyId": 34200,
+            "companyLogo": "i/image/M00/5B/F2/Cgp3O1ficwGAUhvyAAAu-A_Smac108.png",
+            "companyName": "健康有益",
+            "companyFullName": "北京健康有益科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3166770,
+            "positionName": "CEO助理",
+            "city": "北京",
+            "createTime": "今天 19:26",
+            "salary": "10k-20k",
+            "companyId": 34200,
+            "companyLogo": "i/image/M00/5B/F2/Cgp3O1ficwGAUhvyAAAu-A_Smac108.png",
+            "companyName": "健康有益",
+            "companyFullName": "北京健康有益科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 2916258,
+            "positionName": "Java 高级开发工程师",
+            "city": "北京",
+            "createTime": "今天 19:25",
+            "salary": "25k-40k",
+            "companyId": 107423,
+            "companyLogo": "i/image/M00/0B/AE/Cgp3O1bWYyOAQo96AAC1TQO-4Cg541.jpg",
+            "companyName": "瓜子二手车直卖网",
+            "companyFullName": "车好多旧机动车经纪(北京)有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3146347,
+            "positionName": "golang",
+            "city": "北京",
+            "createTime": "今天 19:25",
+            "salary": "20k-40k",
+            "companyId": 107423,
+            "companyLogo": "i/image/M00/0B/AE/Cgp3O1bWYyOAQo96AAC1TQO-4Cg541.jpg",
+            "companyName": "瓜子二手车直卖网",
+            "companyFullName": "车好多旧机动车经纪(北京)有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 2920594,
+            "positionName": "手游运营总监",
+            "city": "深圳",
+            "createTime": "今天 19:19",
+            "salary": "25k-50k",
+            "companyId": 51037,
+            "companyLogo": "i/image/M00/00/DC/CgpEMljGSmuAEvZjAAAXHa_N50o235.jpg",
+            "companyName": "飞鱼科技",
+            "companyFullName": "厦门飞游信息科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 1732073,
+            "positionName": "需求工程师",
+            "city": "广州",
+            "createTime": "今天 19:12",
+            "salary": "6k-10k",
+            "companyId": 61875,
+            "companyLogo": "image1/M00/3D/62/Cgo8PFW4T6OAM7tIAAAK0iaN1SE026.jpg",
+            "companyName": "设计院",
+            "companyFullName": "广东省电信规划设计院有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 3138381,
+            "positionName": "测试工程师",
+            "city": "广州",
+            "createTime": "今天 19:12",
+            "salary": "4k-8k",
+            "companyId": 61875,
+            "companyLogo": "image1/M00/3D/62/Cgo8PFW4T6OAM7tIAAAK0iaN1SE026.jpg",
+            "companyName": "设计院",
+            "companyFullName": "广东省电信规划设计院有限公司"
+        }
+    ]
+}

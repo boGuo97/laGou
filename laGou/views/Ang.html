@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="edit">
+		10秒钟定制职位<span><em></em>编辑</span>
+	</div>
+	<a href="http://www.baidu.com" ng-repeat="i in data" class="wrap">
+		<img src="images/bo.jpg" alt="" class="wrap-img">
+		<div class="wrap-rig">
+			<h3 class="h3">{{i.name}}</h3>
+			<p class="p">{{i.positionname}}<span>[{{i.city}}]</span><span class="span">{{i.salary}}</span></p>
+			<span class="spanTow">{{i.ceartetime}}</span>
+		</div>
+	</a>
+		<!-- <script src="js/angular.js"></script> -->
+</body>
+</html>

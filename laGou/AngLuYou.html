@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app="luyou">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/laGou.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+	<header>拉勾网</header>
+	<div class="mian">
+		<div ng-view class="view"></div>
+	</div>
+	<footer class="footer" ng-controller="footerO">		
+		<a href="#/Ang" ng-click="Color('Ang')" ng-class="colorO"><i></i>职位</a>
+		<a href="#/nav" ng-click="Color('nav')" ng-class="colorT"><i></i>搜索</a>
+		<a href="#/title" ng-click="Color('title')" ng-class="colorS"><i></i>我的</a>
+	</footer>
+	<script src="js/angular.js"></script>
+	<script src="js/angular-animate.min.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script>
+		var luyou = angular.module("luyou",["ngAnimate","ngRoute"])
+		luyou.config(["$routeProvider",($routeProvider) =>{
+			$routeProvider.when("/Ang",{
+				templateUrl:"./views/Ang.html",
+				controller : "myTowController"
+			})
+			$routeProvider.when("/nav",{
+				templateUrl:"./views/nav.html",
+				controller : "mySanController"
+			})
+			$routeProvider.when("/title",{
+				templateUrl:"./views/title.html",
+				controller : "mySiController"
+			})
+		}])
+
+		luyou.controller("myTowController",($scope,$http) =>{
+			$http({
+				url:"http://127.0.0.1:82/",
+				method:"GET"
+			}).then(function(data){
+				console.log(data.data)
+				$scope.data = data.data
+			},function(error){
+				console.log(error);
+			});
+		})
+		luyou.controller("mySanController",($scope,$http) =>{
+			$scope.city = ()=>{
+				$http({
+					url:"http://127.0.0.1:82/POST",
+					method:"GET"
+				}).then(function(city){
+					for(var i in city.data){
+						// for(var n in city.data[i]){
+							console.log(city.data[i])
+							$scope.data = city.data[i]
+						// }
+
+					}
+				},function(error){
+					console.log(error);
+				});
+			}
+		})
+		luyou.controller("mySiController",($scope) =>{
+			
+		})
+		luyou.controller("footerO",($scope) =>{
+			$scope.colorO = "idae"
+			$scope.Color = (e) =>{
+				$scope.colorO = ""
+				$scope.colorT = ""
+				$scope.colorS= ""
+				if(e == 'Ang'){$scope.colorO = "idae"}
+				if(e == 'nav'){$scope.colorT = "idae"}
+				if(e == 'title'){$scope.colorS = "idae"}
+			}
+		})
+	</script>
+</body>
+</html>
